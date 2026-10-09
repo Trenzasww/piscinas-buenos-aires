@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Piscinas Buenos Aires | Construcción y Reparación de Piletas de Hormigón</title>
+<meta name="description" content="Empresa líder en construcción y reparación de piscinas de hormigón con más de 30 años de experiencia. Reformas, renovaciones, revestimientos de venecitas y reparación de fugas. Garantía escrita.">
+<meta name="keywords" content="reparación de piletas, reparación de piscinas, construcción de piletas, piscinas de hormigón, revestimiento de venecitas, renovación de piscinas, Buenos Aires">
+<meta name="theme-color" content="#01192b">
+<meta property="og:title" content="Piscinas Buenos Aires | Construcción y Reparación de Piletas">
+<meta property="og:description" content="Más de 30 años construyendo y reparando piscinas de hormigón. Trabajos con garantía escrita.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/banner/banner03.jpg">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Piscinas Buenos Aires",
+  "description": "Construcción y reparación de piscinas de hormigón con más de 30 años de experiencia.",
+  "telephone": ["+54 9 11 2517-0055", "+54 9 11 5845-6074"],
+  "email": "info@piscinasbuenosaires.com.ar",
+  "areaServed": "Buenos Aires, Argentina",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "20:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:00", "closes": "13:00"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Medidor de nivel de agua (scroll) -->
+<div class="level" aria-hidden="true">
+  <div class="level__tube"><div class="level__water" id="levelWater"></div></div>
+  <div class="level__label"><span id="levelPct">0</span>%</div>
+</div>
+
+<!-- Barra superior -->
+<div class="topbar">
+  <div class="wrap topbar__in">
+    <span class="topbar__item"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      Cel/WhatsApp: <a href="tel:+5491125170055">15-2517-0055</a> / <a href="tel:+5491158456074">15-5845-6074</a></span>
+    <span class="topbar__item topbar__hide"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm.5 5v5.2l4.3 2.6-.8 1.3-5-3V7z"/></svg>
+      Lun a Vie 07:00–20:00 · Sáb 07:00–13:00</span>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+  <div class="wrap header__in">
+    <a href="#inicio" class="logo"><img src="img/logo.png" alt="Piscinas Buenos Aires" width="176" height="45"></a>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#construccion">Construcción</a>
+      <a href="#reparacion">Reparación</a>
+      <a href="#revestimientos">Revestimientos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto" class="nav__cta">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero__slides" id="slides">
+    <div class="hero__slide is-active" style="background-image:url('img/banner/banner03.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('img/banner/banner01.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('img/banner/banner05.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('img/banner/banner06.jpg')"></div>
+  </div>
+  <div class="hero__shade"></div>
+  <div class="bubbles" aria-hidden="true"></div>
+  <div class="wrap hero__content">
+    <p class="eyebrow">Empresa líder en piletas de hormigón</p>
+    <h1>Reparación de piletas<br><span>Renovación de piscinas</span><br>Revestimientos</h1>
+    <p class="hero__lead">Más de <strong>30 años</strong> de experiencia construyendo, reparando y renovando piscinas en Buenos Aires. Consultenos sin compromiso.</p>
+    <div class="hero__btns">
+      <a class="btn btn--wa" href="https://wa.me/5491125170055?text=Hola%2C%20quisiera%20hacer%20una%20consulta%20sobre%20mi%20pileta." target="_blank" rel="noopener"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.1 19.7L3 29l6.5-1.8A13 13 0 1 0 16 3zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.700zm5.900-8c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.200-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.300-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.100 1.100-1.100 2.600s1.100 3 1.300 3.200c.2.200 2.200 3.400 5.400 4.700 3.200 1.300 3.200.9 3.800.8.600-.1 1.900-.8 2.200-1.500.3-.7.300-1.400.2-1.500-.1-.1-.3-.2-.6-.4z"/></svg> Escribinos por WhatsApp</a>
+      <a class="btn btn--ghost" href="#servicios">Ver servicios</a>
+    </div>
+    <ul class="hero__badges">
+      <li><b data-count="30">0</b>+ años<small>de experiencia</small></li>
+      <li><b>100%</b><small>trabajos con garantía escrita</small></li>
+      <li><b>Equipo</b><small>capacitado y asegurado</small></li>
+    </ul>
+  </div>
+  <button class="hero__arrow hero__arrow--prev" id="prev" aria-label="Anterior">‹</button>
+  <button class="hero__arrow hero__arrow--next" id="next" aria-label="Siguiente">›</button>
+  <div class="hero__dots" id="dots"></div>
+  <svg class="wave wave--hero" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path class="w1" d="M0 60 C 240 120 480 0 720 60 S 1200 120 1440 60 V120 H0z"/>
+    <path class="w2" d="M0 80 C 240 20 480 120 720 80 S 1200 20 1440 80 V120 H0z"/>
+  </svg>
+</section>
+
+<!-- SERVICIOS -->
+<section class="section section--light" id="servicios">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow eyebrow--dark">Servicios</p>
+      <h2>Todo para tu pileta, en un solo lugar</h2>
+      <p>Reparación de piscinas y piletas de hormigón, renovaciones, reformas, revestimientos y reparación de fugas.</p>
+    </header>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card__img"><img src="img/banner/index03.jpg" alt="Construcción de piscinas de hormigón" loading="lazy"></div>
+        <div class="card__body"><h3>Construcción de piscinas</h3><a href="#construccion" class="card__link">Ver más →</a></div>
+      </article>
+      <article class="card reveal" style="--d:.1s">
+        <div class="card__img"><img src="img/banner/index07.jpg" alt="Reparación de piletas" loading="lazy"></div>
+        <div class="card__body"><h3>Reparación de piletas</h3><a href="#reparacion" class="card__link">Ver más →</a></div>
+      </article>
+      <article class="card reveal" style="--d:.2s">
+        <div class="card__img"><img src="img/banner/index05.jpg" alt="Revestimiento de venecitas" loading="lazy"></div>
+        <div class="card__body"><h3>Revestimiento de venecitas</h3><a href="#revestimientos" class="card__link">Ver más →</a></div>
+      </article>
+      <article class="card reveal" style="--d:.3s">
+        <div class="card__img"><img src="img/banner/index02.jpg" alt="Reformas de piscinas" loading="lazy"></div>
+        <div class="card__body"><h3>Reformas de piscinas</h3><a href="#reparacion" class="card__link">Ver más →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Carril con nadador (animación scroll) -->
+<div class="lane" id="lane1" aria-hidden="true">
+  <div class="lane__rope"></div>
+  <div class="lane__swimmer" data-swimmer>
+    <svg viewBox="0 0 120 50"><g class="sw-arm"><path d="M52 22 C 62 4, 84 4, 92 18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></g><ellipse cx="46" cy="28" rx="28" ry="7" fill="#19b5e8"/><circle cx="82" cy="24" r="8" fill="#ffd9b8"/><path d="M74 22 A8 8 0 0 1 90 22 Z" fill="#e63946"/><path d="M14 30 q-8 4 -12 0" stroke="#fff" fill="none" stroke-width="3" stroke-linecap="round" class="sw-kick"/></svg>
+  </div>
+</div>
+
+<!-- NOSOTROS -->
+<section class="section section--dark" id="nosotros">
+  <div class="wrap about">
+    <div class="about__text reveal">
+      <p class="eyebrow">La empresa</p>
+      <h2>Más de 30 años haciendo piscinas</h2>
+      <p>Piscinas Buenos Aires es una empresa especializada en construcción y reparación de Piscinas de hormigón con más de 30 años de experiencia.</p>
+      <p>También reformas, remodelaciones y arreglos en general.</p>
+      <p>Aparte de la construcción de piscinas familiares y recreativas incluimos también el proyecto y construcción de piscinas atípicas, de formas irregulares.</p>
+      <p>Acérquenos su proyecto, plano, foto, o imagen y le construiremos la piscina que usted elija.</p>
+      <p class="about__sign">Quedamos a su disposición.<br><strong>Piscinas Buenos Aires</strong></p>
+      <ul class="ticks">
+        <li>Empresa líder en reparación de piletas de hormigón</li>
+        <li>Expertos con personal capacitado y asegurado</li>
+        <li>Trabajos con garantía escrita</li>
+      </ul>
+    </div>
+    <div class="about__grid">
+      <a href="img/empresa/01.jpg" class="g-item reveal" data-group="empresa"><img src="img/empresa/01.jpg" alt="Piscina - trabajo de Piscinas Buenos Aires 1" loading="lazy"></a>
+      <a href="img/empresa/02.jpg" class="g-item reveal" data-group="empresa" style="--d:.1s"><img src="img/empresa/02.jpg" alt="Piscina - trabajo de Piscinas Buenos Aires 2" loading="lazy"></a>
+      <a href="img/empresa/03.jpg" class="g-item reveal" data-group="empresa" style="--d:.2s"><img src="img/empresa/03.jpg" alt="Piscina - trabajo de Piscinas Buenos Aires 3" loading="lazy"></a>
+      <a href="img/empresa/04.jpg" class="g-item reveal" data-group="empresa" style="--d:.3s"><img src="img/empresa/04.jpg" alt="Piscina - trabajo de Piscinas Buenos Aires 4" loading="lazy"></a>
+    </div>
+  </div>
+  <svg class="wave wave--bottom wave--light" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path class="w1" d="M0 60 C 240 120 480 0 720 60 S 1200 120 1440 60 V120 H0z"/>
+    <path class="w2" d="M0 80 C 240 20 480 120 720 80 S 1200 20 1440 80 V120 H0z"/>
+  </svg>
+</section>
+
+<!-- CONSTRUCCIÓN -->
+<section class="section section--light" id="construccion">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow eyebrow--dark">Construcción</p>
+      <h2>Construcción de piletas de hormigón</h2>
+    </header>
+    <div class="grid grid--4">
+      <a href="img/hormigon/01.jpg" class="g-item reveal" data-group="hormigon"><img src="img/hormigon/01.jpg" alt="Construcción de pileta de hormigón 1" loading="lazy"></a>
+      <a href="img/hormigon/02.jpg" class="g-item reveal" data-group="hormigon" style="--d:.05s"><img src="img/hormigon/02.jpg" alt="Construcción de pileta de hormigón 2" loading="lazy"></a>
+      <a href="img/hormigon/03.jpg" class="g-item reveal" data-group="hormigon" style="--d:.1s"><img src="img/hormigon/03.jpg" alt="Construcción de pileta de hormigón 3" loading="lazy"></a>
+      <a href="img/hormigon/04.jpg" class="g-item reveal" data-group="hormigon" style="--d:.15s"><img src="img/hormigon/04.jpg" alt="Construcción de pileta de hormigón 4" loading="lazy"></a>
+      <a href="img/hormigon/09.jpg" class="g-item reveal" data-group="hormigon"><img src="img/hormigon/09.jpg" alt="Construcción de pileta de hormigón 5" loading="lazy"></a>
+      <a href="img/hormigon/12.jpg" class="g-item reveal" data-group="hormigon" style="--d:.05s"><img src="img/hormigon/12.jpg" alt="Construcción de pileta de hormigón 6" loading="lazy"></a>
+      <a href="img/hormigon/13.jpg" class="g-item reveal" data-group="hormigon" style="--d:.1s"><img src="img/hormigon/13.jpg" alt="Construcción de pileta de hormigón 7" loading="lazy"></a>
+      <a href="img/hormigon/08.jpg" class="g-item reveal" data-group="hormigon" style="--d:.15s"><img src="img/hormigon/08.jpg" alt="Construcción de pileta de hormigón 8" loading="lazy"></a>
+    </div>
+    <div class="prose reveal">
+      <p><strong>Más de 30 años de experiencia en construcción de Piscinas de Hormigón.</strong> Utilizamos hormigón elaborado en planta hormigonera.</p>
+      <p>El hormigón es el material ideal para la construcción de Piscinas, dado que reúne todas las características de resistencia, duración e impermeabilidad.</p>
+      <p>Es un material sumamente manejable, que puede adaptarse con suma sencillez a cualquier forma, por lo que además de la construcción de piletas tradicionales, podemos construir diseños de piletas con formas sinuosas.</p>
+      <p>La utilización de hormigón elaborado en plantas hormigoneras, garantiza la homogeneidad y garantía de este producto, facilitando y acortando grandemente el tiempo de construcción del vaso de la piscina, ya que en dos a tres horas se finaliza por completo el proceso del hormigonado.</p>
+      <div class="specs">
+        <div class="spec"><b>8 a 10 mm</b><span>Armadura con varillas de acero, cruzadas en distancias determinadas en cada caso por las cargas y presiones a soportar.</span></div>
+        <div class="spec"><b>15 a 25 cm</b><span>Espesor de los tabiques, según el tipo de suelo donde se hará la construcción.</span></div>
+        <div class="spec"><b>Proyectado</b><span>Hormigón proyectado: mezcla aplicada con bombas y mangueras a alta presión.</span></div>
+      </div>
+      <p>En Piscinas Buenos Aires estamos para ayudarte y asesorarte en lo que necesites. Envianos tu consulta por Whatsapp, o por teléfono, o por email y con gusto te ayudaremos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REPARACIÓN -->
+<section class="section section--blue" id="reparacion">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Reparación</p>
+      <h2>Reparación de piletas y piscinas de hormigón</h2>
+    </header>
+    <ul class="chips reveal">
+      <li>Reparación de piscinas y piletas de hormigón</li>
+      <li>Renovación de piletas</li>
+      <li>Reformas y renovaciones</li>
+      <li>Revestimientos</li>
+      <li>Reparación de fugas</li>
+    </ul>
+    <div class="grid grid--4">
+      <a href="img/reparacion/01.jpg" class="g-item reveal" data-group="reparacion"><img src="img/reparacion/01.jpg" alt="Arreglo de piscinas 1" loading="lazy"></a>
+      <a href="img/reparacion/02.jpg" class="g-item reveal" data-group="reparacion" style="--d:.05s"><img src="img/reparacion/02.jpg" alt="Arreglo de piscinas 2" loading="lazy"></a>
+      <a href="img/reparacion/03.jpg" class="g-item reveal" data-group="reparacion" style="--d:.1s"><img src="img/reparacion/03.jpg" alt="Arreglo de piscinas 3" loading="lazy"></a>
+      <a href="img/reparacion/04.jpg" class="g-item reveal" data-group="reparacion" style="--d:.15s"><img src="img/reparacion/04.jpg" alt="Arreglo de piscinas 4" loading="lazy"></a>
+      <a href="img/reparacion/05.jpg" class="g-item reveal" data-group="reparacion"><img src="img/reparacion/05.jpg" alt="Arreglo de piscinas 5" loading="lazy"></a>
+      <a href="img/reparacion/06.jpg" class="g-item reveal" data-group="reparacion" style="--d:.05s"><img src="img/reparacion/06.jpg" alt="Arreglo de piscinas 6" loading="lazy"></a>
+      <a href="img/reparacion/07.jpg" class="g-item reveal" data-group="reparacion" style="--d:.1s"><img src="img/reparacion/07.jpg" alt="Arreglo de piscinas 7" loading="lazy"></a>
+      <a href="img/reparacion/12.jpg" class="g-item reveal" data-group="reparacion" style="--d:.15s"><img src="img/reparacion/12.jpg" alt="Arreglo de piscinas 8" loading="lazy"></a>
+    </div>
+  </div>
+</section>
+
+<!-- Carril 2 -->
+<div class="lane lane--dark" id="lane2" aria-hidden="true">
+  <div class="lane__rope"></div>
+  <div class="lane__swimmer" data-swimmer>
+    <svg viewBox="0 0 120 50"><g class="sw-arm"><path d="M52 22 C 62 4, 84 4, 92 18" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></g><ellipse cx="46" cy="28" rx="28" ry="7" fill="#19b5e8"/><circle cx="82" cy="24" r="8" fill="#ffd9b8"/><path d="M74 22 A8 8 0 0 1 90 22 Z" fill="#e63946"/><path d="M14 30 q-8 4 -12 0" stroke="#fff" fill="none" stroke-width="3" stroke-linecap="round" class="sw-kick"/></svg>
+  </div>
+</div>
+
+<!-- REVESTIMIENTOS -->
+<section class="section section--light" id="revestimientos">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow eyebrow--dark">Revestimientos</p>
+      <h2>Revestimientos de venecitas para piletas y piscinas</h2>
+    </header>
+    <div class="grid grid--6">
+      <a href="img/venecitas/01.jpg" class="g-item reveal" data-group="venecitas"><img src="img/venecitas/01.jpg" alt="Revestimiento de venecitas 1" loading="lazy"></a>
+      <a href="img/venecitas/02.jpg" class="g-item reveal" data-group="venecitas" style="--d:.04s"><img src="img/venecitas/02.jpg" alt="Revestimiento de venecitas 2" loading="lazy"></a>
+      <a href="img/venecitas/03.jpg" class="g-item reveal" data-group="venecitas" style="--d:.08s"><img src="img/venecitas/03.jpg" alt="Revestimiento de venecitas 3" loading="lazy"></a>
+      <a href="img/venecitas/04.jpg" class="g-item reveal" data-group="venecitas" style="--d:.12s"><img src="img/venecitas/04.jpg" alt="Revestimiento de venecitas 4" loading="lazy"></a>
+      <a href="img/venecitas/05.jpg" class="g-item reveal" data-group="venecitas" style="--d:.16s"><img src="img/venecitas/05.jpg" alt="Revestimiento de venecitas 5" loading="lazy"></a>
+      <a href="img/venecitas/06.jpg" class="g-item reveal" data-group="venecitas" style="--d:.2s"><img src="img/venecitas/06.jpg" alt="Revestimiento de venecitas 6" loading="lazy"></a>
+      <a href="img/venecitas/07.jpg" class="g-item reveal" data-group="venecitas"><img src="img/venecitas/07.jpg" alt="Revestimiento de venecitas 7" loading="lazy"></a>
+      <a href="img/venecitas/08.jpg" class="g-item reveal" data-group="venecitas" style="--d:.04s"><img src="img/venecitas/08.jpg" alt="Revestimiento de venecitas 8" loading="lazy"></a>
+      <a href="img/venecitas/09.jpg" class="g-item reveal" data-group="venecitas" style="--d:.08s"><img src="img/venecitas/09.jpg" alt="Revestimiento de venecitas 9" loading="lazy"></a>
+      <a href="img/venecitas/10.jpg" class="g-item reveal" data-group="venecitas" style="--d:.12s"><img src="img/venecitas/10.jpg" alt="Revestimiento de venecitas 10" loading="lazy"></a>
+      <a href="img/venecitas/11.jpg" class="g-item reveal" data-group="venecitas" style="--d:.16s"><img src="img/venecitas/11.jpg" alt="Revestimiento de venecitas 11" loading="lazy"></a>
+      <a href="img/venecitas/12.jpg" class="g-item reveal" data-group="venecitas" style="--d:.2s"><img src="img/venecitas/12.jpg" alt="Revestimiento de venecitas 12" loading="lazy"></a>
+    </div>
+    <div class="prose reveal">
+      <p>El revestimiento veneciano es un pequeño mosaico decorativo, con propiedades de alta resistencia y grandes posibilidades de diseño: un único material apto para formar dibujos y combinar colores.</p>
+      <p>Posee características excelentes para piscinas debido a su alta resistencia a la humedad, los cambios de temperatura y los productos químicos (por ejemplo, limpiadores) y su color se mantiene inalterable con el paso del tiempo y la exposición a la luz.</p>
+      <p>Desde la decoración, resultan un elemento único y diferenciador: tiene una paleta de <strong>40 colores</strong> que incluye desde los colores primarios hasta las tonalidades menos comunes, mezclas y veteados. Esta amplitud permite variar los porcentajes de las mezclas, hacer combinaciones, guardas y dibujos que personalizan el diseño. De esta forma, se trabaja con mosaicos venecianos casi con la misma libertad que con la pintura. Se pueden hacer dibujos con diseños originales y exclusivos y sectorizar los diferentes espacios de un ambiente a través de la utilización de diferentes tonalidades.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section class="section section--dark" id="galeria">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Galería de imágenes</p>
+      <h2>Nuestros trabajos</h2>
+      <p>Hacé click en la imagen para agrandar.</p>
+    </header>
+    <div class="filters reveal" id="filters">
+      <button class="is-on" data-f="all">Todos</button>
+      <button data-f="obras">Piscinas terminadas</button>
+      <button data-f="hormigon">Construcción</button>
+      <button data-f="venecitas">Venecitas</button>
+    </div>
+    <div class="grid grid--4 grid--gallery" id="gallery">
+      <a href="img/calefaccion/05.jpg" class="g-item" data-group="galeria" data-cat="obras"><img src="img/calefaccion/05.jpg" alt="Piscina terminada 1" loading="lazy"></a>
+      <a href="img/calefaccion/06.jpg" class="g-item" data-group="galeria" data-cat="obras"><img src="img/calefaccion/06.jpg" alt="Piscina terminada 2" loading="lazy"></a>
+      <a href="img/calefaccion/07.jpg" class="g-item" data-group="galeria" data-cat="obras"><img src="img/calefaccion/07.jpg" alt="Piscina terminada 3" loading="lazy"></a>
+      <a href="img/calefaccion/08.jpg" class="g-item" data-group="galeria" data-cat="obras"><img src="img/calefaccion/08.jpg" alt="Piscina terminada 4" loading="lazy"></a>
+      <a href="img/hormigon/01.jpg" class="g-item" data-group="galeria" data-cat="hormigon"><img src="img/hormigon/01.jpg" alt="Pileta de hormigón 1" loading="lazy"></a>
+      <a href="img/hormigon/02.jpg" class="g-item" data-group="galeria" data-cat="hormigon"><img src="img/hormigon/02.jpg" alt="Pileta de hormigón 2" loading="lazy"></a>
+      <a href="img/hormigon/03.jpg" class="g-item" data-group="galeria" data-cat="hormigon"><img src="img/hormigon/03.jpg" alt="Pileta de hormigón 3" loading="lazy"></a>
+      <a href="img/hormigon/04.jpg" class="g-item" data-group="galeria" data-cat="hormigon"><img src="img/hormigon/04.jpg" alt="Pileta de hormigón 4" loading="lazy"></a>
+      <a href="img/venecitas/05.jpg" class="g-item" data-group="galeria" data-cat="venecitas"><img src="img/venecitas/05.jpg" alt="Venecitas 5" loading="lazy"></a>
+      <a href="img/venecitas/06.jpg" class="g-item" data-group="galeria" data-cat="venecitas"><img src="img/venecitas/06.jpg" alt="Venecitas 6" loading="lazy"></a>
+      <a href="img/venecitas/07.jpg" class="g-item" data-group="galeria" data-cat="venecitas"><img src="img/venecitas/07.jpg" alt="Venecitas 7" loading="lazy"></a>
+      <a href="img/venecitas/08.jpg" class="g-item" data-group="galeria" data-cat="venecitas"><img src="img/venecitas/08.jpg" alt="Venecitas 8" loading="lazy"></a>
+    </div>
+  </div>
+  <svg class="wave wave--bottom wave--light" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path class="w1" d="M0 60 C 240 120 480 0 720 60 S 1200 120 1440 60 V120 H0z"/>
+    <path class="w2" d="M0 80 C 240 20 480 120 720 80 S 1200 20 1440 80 V120 H0z"/>
+  </svg>
+</section>
+
+<!-- CONTACTO -->
+<section class="section section--light" id="contacto">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow eyebrow--dark">Contacto</p>
+      <h2>Consúltenos sin compromiso</h2>
+      <p>Acérquenos su proyecto, plano, foto o imagen y le damos presupuesto.</p>
+    </header>
+    <div class="contact">
+      <div class="contact__info">
+        <div class="ci reveal">
+          <div class="ci__ico"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></div>
+          <div><h4>Teléfonos</h4>
+            <p><a href="tel:+5491125170055">15-2517-0055</a><br><a href="tel:+5491158456074">15-5845-6074</a><br><small>Línea fija: <a href="tel:+541125170055">011 2517-0055</a></small></p></div>
+        </div>
+        <div class="ci reveal" style="--d:.1s">
+          <div class="ci__ico ci__ico--wa"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.1 19.7L3 29l6.5-1.8A13 13 0 1 0 16 3zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.700zm5.900-8c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.200-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.300-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.100 1.100-1.100 2.600s1.100 3 1.300 3.200c.2.200 2.200 3.400 5.400 4.700 3.200 1.300 3.200.9 3.800.8.600-.1 1.900-.8 2.200-1.500.3-.7.300-1.400.2-1.500-.1-.1-.3-.2-.6-.4z"/></svg></div>
+          <div><h4>WhatsApp</h4>
+            <p><a href="https://wa.me/5491125170055" target="_blank" rel="noopener">15-2517-0055</a><br><a href="https://wa.me/5491158456074" target="_blank" rel="noopener">15-5845-6074</a></p></div>
+        </div>
+        <div class="ci reveal" style="--d:.2s">
+          <div class="ci__ico"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg></div>
+          <div><h4>Email</h4><p><a href="mailto:info@piscinasbuenosaires.com.ar">info@piscinasbuenosaires.com.ar</a></p></div>
+        </div>
+        <div class="ci reveal" style="--d:.3s">
+          <div class="ci__ico"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm.5 5v5.2l4.3 2.6-.8 1.3-5-3V7z"/></svg></div>
+          <div><h4>Horarios de atención</h4><p>Lunes a Viernes de 07:00hs a 20:00hs<br>Sábados de 07:00hs a 13:00hs</p></div>
+        </div>
+      </div>
+      <form class="form reveal" id="form" novalidate>
+        <h3>Envianos tu consulta por WhatsApp</h3>
+        <label>Nombre<input type="text" name="nombre" required autocomplete="name" placeholder="Tu nombre"></label>
+        <label>Servicio
+          <select name="servicio">
+            <option>Construcción de piscina</option>
+            <option>Reparación de pileta</option>
+            <option>Revestimiento de venecitas</option>
+            <option>Reforma / renovación</option>
+            <option>Otra consulta</option>
+          </select>
+        </label>
+        <label>Mensaje<textarea name="mensaje" rows="4" placeholder="Contanos sobre tu pileta o proyecto"></textarea></label>
+        <button type="submit" class="btn btn--wa btn--block"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.1 19.7L3 29l6.5-1.8A13 13 0 1 0 16 3zm0 23.7c-2 0-3.900-.6-5.500-1.600l-.4-.2-3.900 1 1-3.800-.3-.4A10.700 10.700 0 1 1 16 26.700z"/></svg> Enviar por WhatsApp</button>
+        <small>Se abrirá WhatsApp con tu mensaje listo para enviar.</small>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <svg class="wave wave--top" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path class="w1" d="M0 60 C 240 120 480 0 720 60 S 1200 120 1440 60 V0 H0z"/>
+    <path class="w2" d="M0 80 C 240 20 480 120 720 80 S 1200 20 1440 80 V0 H0z"/>
+  </svg>
+  <div class="wrap footer__in">
+    <img src="img/logo.png" alt="Piscinas Buenos Aires" width="176" height="45">
+    <h2>PISCINAS BUENOS AIRES</h2>
+    <p>Teléfono: <a href="tel:+541125170055">011 2517-0055</a></p>
+    <p>Cel/WhatsApp: <a href="tel:+5491125170055">15-2517-0055</a> / <a href="tel:+5491158456074">15-5845-6074</a></p>
+    <p><a href="mailto:info@piscinasbuenosaires.com.ar">info@piscinasbuenosaires.com.ar</a></p>
+    <p class="footer__small">Lunes a Viernes 07:00–20:00hs · Sábados 07:00–13:00hs</p>
+    <p class="footer__small">© <span id="year"></span> Piscinas Buenos Aires. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- WhatsApp widget -->
+<a href="https://wa.me/5491125170055?text=Hola%2C%20quisiera%20hacer%20una%20consulta." class="wa" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <span class="wa__tip">¿Necesitás ayuda con tu pileta?<br><b>Escribinos</b></span>
+  <span class="wa__btn"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.1 19.7L3 29l6.5-1.8A13 13 0 1 0 16 3zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.700zm5.900-8c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.200-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.300-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.100 1.100-1.100 2.600s1.100 3 1.300 3.200c.2.200 2.200 3.400 5.400 4.700 3.200 1.300 3.200.9 3.800.8.600-.1 1.900-.8 2.200-1.500.3-.7.300-1.400.2-1.500-.1-.1-.3-.2-.6-.4z"/></svg></span>
+</a>
+
+<!-- Lightbox -->
+<div class="lb" id="lb" aria-hidden="true" role="dialog" aria-label="Visor de imágenes">
+  <button class="lb__x" id="lbX" aria-label="Cerrar">×</button>
+  <button class="lb__nav lb__nav--p" id="lbP" aria-label="Anterior">‹</button>
+  <img id="lbImg" alt="">
+  <button class="lb__nav lb__nav--n" id="lbN" aria-label="Siguiente">›</button>
+  <div class="lb__count" id="lbC"></div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

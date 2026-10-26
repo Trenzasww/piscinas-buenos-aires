@@ -1,0 +1,85 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Helvetica Neue',Arial,sans-serif;background:#fff}
+.slide{width:1200px;height:1200px;position:relative;background:#f4f7fb;overflow:hidden;margin-bottom:20px}
+.head{background:#1a73e8;color:#fff;padding:44px 60px;height:200px}
+.head small{font-size:26px;opacity:.85;letter-spacing:2px;text-transform:uppercase}
+.head h1{font-size:54px;margin-top:10px;line-height:1.1}
+.body{padding:40px 50px}
+.row{display:flex;gap:30px;justify-content:center}
+.step{width:340px;text-align:center}
+.badge{display:inline-flex;width:54px;height:54px;border-radius:50%;background:#1a73e8;color:#fff;font-size:30px;font-weight:700;align-items:center;justify-content:center;margin-bottom:12px}
+.cap{font-size:26px;line-height:1.25;color:#222;margin-top:16px;font-weight:600}
+.cap span{display:block;font-weight:400;font-size:22px;color:#555;margin-top:4px}
+.phone{width:290px;height:520px;margin:0 auto;border:10px solid #14161a;border-radius:42px;background:#fff;position:relative;overflow:hidden;font-size:17px}
+.phone .bar{height:26px;background:#fff}
+.phone .ttl{text-align:center;font-weight:700;padding:8px;border-bottom:1px solid #eee}
+.btn{margin:8px 14px;padding:14px;border-radius:8px;background:#f5a000;color:#fff;font-weight:700;text-align:center}
+.btn.hl{outline:5px solid #e53935;outline-offset:2px}
+.item{display:flex;align-items:center;gap:10px;padding:13px 14px;border-bottom:1px solid #eee}
+.item i{font-style:normal;width:26px;text-align:center;font-size:22px}
+.item.hl{background:#fff3cd;outline:4px solid #e53935;outline-offset:-4px;font-weight:700}
+.field{margin:14px;border:2px solid #1a73e8;border-radius:8px;padding:12px;font-size:15px;word-break:break-all;color:#1a73e8}
+.lbl{margin:14px 14px 0;font-size:14px;color:#666}
+.modal{position:absolute;left:18px;right:18px;top:215px;background:#fff;border-radius:18px;box-shadow:0 8px 30px rgba(0,0,0,.35);padding:22px;text-align:center}
+.ring{width:110px;height:110px;border:6px solid #1a73e8;border-radius:50%;margin:16px auto;display:flex;align-items:center;justify-content:center;font-size:44px}
+.foot{position:absolute;left:0;right:0;bottom:0;height:150px;background:#0b8043;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.foot b{font-size:40px}
+.foot span{font-size:26px;margin-top:6px;opacity:.95}
+.box{background:#fff;border-radius:20px;padding:26px 32px;font-size:28px;line-height:1.35;box-shadow:0 2px 10px rgba(0,0,0,.08);margin-bottom:22px}
+.box b.n{display:inline-block;background:#1a73e8;color:#fff;border-radius:50%;width:44px;height:44px;text-align:center;line-height:44px;margin-right:12px;font-size:26px}
+code{background:#eef3fd;color:#1a3d8f;padding:3px 8px;border-radius:6px;font-size:22px;word-break:break-all}
+.cartel{width:180px;height:180px;margin:60px auto 0;background:#1a73e8;border-radius:16px;position:relative;color:#fff;font-weight:700;text-align:center;padding-top:20px;font-size:20px}
+.cartel:after{content:"NFC";position:absolute;bottom:14px;right:14px;background:#000;border-radius:10px;padding:14px 12px;font-size:20px}
+.pbk{position:absolute;left:95px;top:230px;width:130px;height:230px;border:8px solid #14161a;border-radius:28px;background:#dfe7f5;text-align:center;padding-top:70px;font-size:14px;transform:rotate(-8deg)}
+.ok{color:#0b8043;font-size:70px;text-align:center}
+</style></head><body>
+
+<div class="slide" id="s1">
+ <div class="head"><small>Guía de configuración · Paso 1 de 3</small><h1>Conseguí tu link de reseñas</h1></div>
+ <div class="body">
+  <div class="box"><b class="n">1</b><b>Opción fácil: Google Maps</b><br>Buscá tu negocio → tocá <b>Compartir</b> → <b>Copiar link</b>.</div>
+  <div class="box"><b class="n">2</b><b>Opción Place ID</b><br>Buscá en Google <b>“Place ID Finder”</b>, escribí el nombre de tu negocio y copiá el código (empieza con <b>ChIJ…</b>). Armá el link así:<br><code>https://search.google.com/local/writereview?placeid=TU_PLACE_ID</code></div>
+  <div class="box"><b class="n">3</b><b>Instalá la app gratis “NFC Tools”</b><br>Disponible en App Store y Google Play. En Android activá el NFC en Ajustes.</div>
+  <div class="box" style="background:#fff8e1"><b>Guardá el link</b> copiado en tus notas: lo vas a pegar en el paso siguiente.</div>
+ </div>
+ <div class="foot"><b>¿Preferís que lo hagamos nosotros?</b><span>Podemos configurarla para tu local sin costo</span></div>
+</div>
+
+<div class="slide" id="s2">
+ <div class="head"><small>Guía de configuración · Paso 2 de 3</small><h1>Grabá tu link en el cartel NFC</h1></div>
+ <div class="body"><div class="row">
+  <div class="step"><div class="phone"><div class="bar"></div><div class="ttl">NFC Tools</div>
+    <div style="text-align:center;margin:30px 0;font-size:16px">Bienvenido en NFC Tools</div>
+    <div class="btn">Leer</div><div class="btn hl">Escribir</div><div class="btn">Otro</div><div class="btn">Mis etiquetas NFC</div></div>
+    <div style="margin-top:14px"><span class="badge">4</span></div><div class="cap" style="margin-top:0">Abrí NFC Tools y tocá “Escribir”</div></div>
+  <div class="step"><div class="phone"><div class="bar"></div><div class="ttl">Añadir un registro</div>
+    <div class="item"><i>📄</i>Texto</div><div class="item hl"><i>🔗</i>URL / URI</div><div class="item"><i>📞</i>Teléfono</div><div class="item"><i>📶</i>Wi-Fi</div><div class="item"><i>✉️</i>E-Mail</div><div class="item"><i>👥</i>Redes sociales</div></div>
+    <div style="margin-top:14px"><span class="badge">5</span></div><div class="cap" style="margin-top:0">Tocá “Añadir un registro” y elegí “URL / URI”</div></div>
+  <div class="step"><div class="phone"><div class="bar"></div><div class="ttl">URL / URI</div>
+    <div class="lbl">Protocolo: https://</div>
+    <div class="field">search.google.com/local/writereview?placeid=ChIJ…</div>
+    <div class="btn" style="background:#1a73e8">OK</div><div style="text-align:center;margin-top:30px;color:#777">Pegá aquí tu link</div></div>
+    <div style="margin-top:14px"><span class="badge">6</span></div><div class="cap" style="margin-top:0">Pegá tu link y tocá “OK”</div></div>
+ </div></div>
+ <div class="foot"><b>¿Preferís que lo hagamos nosotros?</b><span>Podemos configurarla para tu local sin costo</span></div>
+</div>
+
+<div class="slide" id="s3">
+ <div class="head"><small>Guía de configuración · Paso 3 de 3</small><h1>Escribí, probá y pegá el cartel</h1></div>
+ <div class="body"><div class="row">
+  <div class="step"><div class="phone"><div class="bar"></div><div class="ttl">Escribir</div>
+    <div class="btn">Añadir un registro</div><div class="btn hl">Escribir / 120 Bytes</div>
+    <div class="item"><i>🔗</i>URL / URI<br></div>
+    <div class="modal"><b>Listo para escanear</b><div class="ring">📱</div><span style="font-size:14px">Acerque una etiqueta</span></div></div>
+    <div style="margin-top:14px"><span class="badge">7</span></div><div class="cap" style="margin-top:0">Tocá “Escribir” y apoyá el celular en el cartel hasta que vibre<span>Sin funda gruesa. No muevas el celular.</span></div></div>
+  <div class="step"><div class="phone" style="background:#eaf0fb"><div class="cartel">Review us<br>on Google<br>★★★★★</div><div class="pbk">parte de atrás<br>del celular</div></div>
+    <div style="margin-top:14px"><span class="badge">8</span></div><div class="cap" style="margin-top:0">Acercá la parte de atrás del celular al cartel<span>Cerca del logo NFC.</span></div></div>
+  <div class="step"><div class="phone"><div class="bar"></div><div class="ttl">Leer · Registro 1</div>
+    <div class="item"><i>🔗</i><div style="font-size:14px;word-break:break-all">https://search.google.com/local/writereview?placeid=ChIJ…</div></div>
+    <div class="ok" style="margin-top:50px">✔</div><div style="text-align:center;font-weight:700">Link correcto</div></div>
+    <div style="margin-top:14px"><span class="badge">9</span></div><div class="cap" style="margin-top:0">Probalo: tocá “Leer” y verificá el link<span>Después pegá el cartel en un lugar visible, sin metal debajo.</span></div></div>
+ </div></div>
+ <div class="foot"><b>¿Preferís que lo hagamos nosotros?</b><span>Podemos configurarla para tu local sin costo</span></div>
+</div>
+</body></html>
